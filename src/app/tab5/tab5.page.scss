@@ -1,0 +1,24 @@
+.card{
+  display: flex;
+  font-size: 100%;
+  // background-color:blue !important;
+  // width: 10%;
+}
+.card:hover{
+  background-color: green;
+  border: 1px solid;
+  // color: red;
+  // box-shadow: 10px 10px 4px sandybrown;
+}
+.symbol{
+  display: flex;
+  // border: 1px solid;
+  height: -webkit-fill-available;
+  width: auto;
+}
+.blog{
+  display: flex;
+  border: 1px solid;
+  width: 20%;
+  // font-size: 1px;
+}

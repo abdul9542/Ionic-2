@@ -1,0 +1,107 @@
+.blog2{
+    display: flex;
+    // border: 1px solid;
+    flex-direction: column;
+    // width: 50%;
+    flex: 1;
+    border-left:1px solid beige;
+    padding-left: 1%;
+    justify-content: center;
+  }
+  .blog1{
+    display: flex;
+    flex:2
+  }
+hr {
+  background: black;
+}
+.check{
+  display: flex;
+  justify-content: space-around;
+  // border: 1px solid;
+  width: 29%;
+  align-self: center;
+}
+.text{
+  text-decoration: none;
+  align-self: center;
+}
+.submit{
+  display: flex;
+  position: inherit;
+  // border: 1px solid;
+  height: 11%;
+  justify-content: center;
+}
+.content{
+  display: flex;
+  // width: 100%;
+  flex: 3;
+  height: 100%;
+  flex-direction: row;
+}
+.button{
+  display: flex;
+  width: 23%;
+  // height: 56%;
+  color: aliceblue;
+  border-radius: 9px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: dodgerblue;
+}
+.Register{
+  display: flex;
+  width: 23%;
+  // height: 56%;
+  color: black;
+  border-radius: 9px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+ion-icon{
+  font-size: 30px;
+  color: green;
+}
+// .textbox{
+//   border: 1px solid;
+// }
+.item-interactive{
+  border: none !important;
+}
+.blog-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 57%;
+  // border: 1px solid;
+}
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}

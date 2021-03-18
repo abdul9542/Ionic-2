@@ -1,0 +1,120 @@
+.desc{
+    display: flex;
+    // font-size: 122%; 
+}
+.text{
+  display: flex;
+  justify-content: center;
+}
+.inputs{
+  display: flex;
+  flex: 4;
+  padding-left: 30%;
+  // flex-direction: column;
+  // justify-content: center;
+  // border:1px solid;
+}
+.input1{
+  display: flex;
+  flex: 0.5 ;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.submit{
+  display: flex;
+  position: unset;
+  // border: 1px solid;
+  height: 5%;
+  margin-right: 31%;
+  justify-content: flex-end;
+}
+.button{
+  display: flex;
+  width: 10%;
+  height: 33px;
+  color: aliceblue;
+  border-radius: 9px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: dodgerblue;
+}
+.fgtpwd{
+  display: flex;
+  flex-direction: column;
+}
+.mark{
+  display: flex;
+  margin-left: 64%;
+  // border: 1px solid;
+  flex-basis: 44px !important;
+}
+.item-interactive{
+  --border-width: 0 0 0 0 !important;
+}
+// .blog{
+//     display: flex;
+//     border: 1px solid;
+//     flex-direction: column;
+//     width: 50%;
+//     justify-content: center;
+//   }
+//   .trial{
+//     display: flex;
+//   }
+//   .check{
+//     display: flex;
+//     justify-content: space-around;
+//     // border: 1px solid;
+//     width: 29%;
+//     align-self: center;
+//   }
+//   .text{
+//     text-decoration: none;
+//     align-self: center;
+//   }
+//   
+//   .content{
+//     display: flex;
+//     width: 100%;
+//     height: 100%;
+//     flex-direction: row;
+//   }
+//   
+//   .Register{
+//     display: flex;
+//     width: 23%;
+//     // height: 56%;
+//     color: black;
+//     border-radius: 9px;
+//     justify-content: center;
+//     align-items: center;
+//     font-size: 18px;
+//   }
+//   #container {
+//     text-align: center;
+  
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     top: 50%;
+//     transform: translateY(-50%);
+//   }
+  
+//   #container strong {
+//     font-size: 20px;
+//     line-height: 26px;
+//   }
+  
+//   #container p {
+//     font-size: 16px;
+//     line-height: 22px;
+  
+//     color: #8c8c8c;
+  
+//     margin: 0;
+//   }
+  
+//   #container a {
+//     text-decoration: none;
+//   }
